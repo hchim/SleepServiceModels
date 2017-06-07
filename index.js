@@ -16,5 +16,5 @@ exports.TrainingPlan = function (conn) {
 }
 
 exports.TrainingRecord = function (conn) {
-    return conn.model('TrainingRecord', trainingPlanSchema);
+    return conn.model('TrainingRecord', trainingRecordSchema);
 }
